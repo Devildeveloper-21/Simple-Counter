@@ -1,0 +1,36 @@
+      body {
+        background-color: gray;
+        margin: 0;
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+        background-color: aqua;
+        height: 100vh;
+    }
+    .circlebutton{
+        background: #b3040462;
+        margin-top: 30vh;
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        border: none;
+        position: fixed;
+    }
+    .clicktext{
+        font-size: 1.6em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .minusbutton{
+        /* background-color: rgb(55, 121, 99); */
+        height: 20px;
+        width: 60px;
+        align-self: center;
+        border: none;
+        border-radius: 20px;
+        font-size: larger;
+        text-align: center;
+        padding-bottom: 25px;
+        position: relative;
+    }
