@@ -1,24 +1,25 @@
       body {
-        background-color: gray;
-        margin: 0;
+        
+          background-color: rgb(147, 44, 216);
     }
 
     .main{
-        /* display: flex; */
-        margin: auto;
+        display: flex;
         justify-content: center;
-        background-color: rgb(147, 44, 216);
         height: 100vh;
     }
 
     .titlename{
         border: 1px solid black;
-        align-self: center;
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10vh ;
     }
-
+    
     .circlebutton{
         background: #b3040462;
-        margin-top: 30vh;
+        margin-top: 10vh;
         height: 200px;
         width: 200px;
         border-radius: 100%;
@@ -30,14 +31,17 @@
         font-family: 'Times New Roman', Times, serif;
     }
     .minusbutton{
+        border: 1px solid black;
         /* background-color: rgb(55, 121, 99); */
         height: 20px;
         width: 60px;
-        align-self: center;
+        margin-top: 37vh;
+        /* align-self: center; */
         border: none;
         border-radius: 20px;
         text-align: center;
         padding-bottom: 20px;
         position: relative;
         cursor: pointer;
+        display: block;
     }
