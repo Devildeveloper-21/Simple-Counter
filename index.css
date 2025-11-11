@@ -4,11 +4,18 @@
     }
 
     .main{
-        display: flex;
+        /* display: flex; */
+        margin: auto;
         justify-content: center;
-        background-color: aqua;
+        background-color: rgb(147, 44, 216);
         height: 100vh;
     }
+
+    .titlename{
+        border: 1px solid black;
+        align-self: center;
+    }
+
     .circlebutton{
         background: #b3040462;
         margin-top: 30vh;
@@ -29,9 +36,8 @@
         align-self: center;
         border: none;
         border-radius: 20px;
-        font-size: larger;
         text-align: center;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
         position: relative;
         cursor: pointer;
     }
