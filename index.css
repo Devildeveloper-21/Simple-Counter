@@ -1,82 +1,122 @@
       body {
-        margin: 0;
-        background-color: rgb(147, 44, 216);
-    }
+          margin: 0;
+          background-color: rgb(147, 44, 216);
+      }
+      
+      .titlename {
+          font-size: 4em;
+          text-align: center;
+          margin-top: 20vh;
+        }
+        
+        .container {
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            gap: 10vw;
+        }
+        
+        .main {
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            height: 30vh;
+        }
+        
+        
+        .circlebutton {
+            background: #b3040462;
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            border: none;
+            position: fixed;
+        }
+        
+        .clicktext {
+            font-size: 1.6em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .minusbutton {
+            /* border: 1px solid black; */
+            background-color: #DA70D6;
+            height: 20px;
+            width: 60px;
+            border: none;
+            margin-top: 18vh;
+            border-radius: 20px;
+          text-align: center;
+          padding-bottom: 20px;
+          position: relative;
+          cursor: pointer;
+        }
 
-    .titlename{
-        text-align: center;
-        font-size: 4em;
-        margin-top: 20vh;
-    }
+        .circlebutton:hover {
+          background-color: #800080;
+        }
+        
+        .minusbutton:hover {
+            background-color: #2C003E;
+        }
+        
+        /* Arrows on side. */
+        /* .leftarrow{
+            border: 1px solid black;
+            background-color: #00BCD4;
+            height: 30px;
+            width: 40px;
+            margin-top: 12vh;
+            border: none;
+            }
+            .rightarrow{
+                border: 1px solid black;
+                background-color: red;
+                height: 30px;
+                width: 40px;
+                margin-top: 12vh;
+                } */
+                
+                
+                
+                @media (max-width:360px) {
+          body {
+              margin: 0;
+              background-color: rgb(147, 44, 216);
+          }
 
-    .container{
-        /* border: 1px solid black; */
-        display: flex;
-        justify-content: center;
-        gap: 10vw;
-    }
+          .titlename {
+              font-size: 2em;
+              text-align: center;
+              margin-top: 30vh;
+          }
 
-    .main{
-        /* border: 1px solid black; */
-        display: flex;
-        justify-content: center;
-        height: 30vh;
-    }
-    
-    
-    .circlebutton{
-        background: #b3040462;
-        height: 200px;
-        width: 200px;
-        border-radius: 100%;
-        border: none;
-        position: fixed;
-    }
-    .clicktext{
-        font-size: 1.6em;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .minusbutton{
-        /* border: 1px solid black; */
-        background-color: #DA70D6;
-        height: 20px;
-        width: 60px;
-        border: none;
-        margin-top: 18vh;
-        border-radius: 20px;
-        text-align: center;
-        padding-bottom: 20px;
-        position: relative;
-        cursor: pointer;
-    }
+          .clicktext {
+              font-size: 1em;
+              font-family: 'Times New Roman', Times, serif;
+          }
 
-    .circlebutton:hover{
-        background-color: #800080;
-    }
-    .minusbutton:hover{
-        background-color: #2C003E;
-    }
+          .circlebutton {
+              background: #b3040462;
+              height: 100px;
+              width: 100px;
+              border-radius: 100%;
+              border: none;
+              position: fixed;
+          }
 
-    
-
-
-
-
-
-    
-    /* Arrows on side. */
-    /* .leftarrow{
-        border: 1px solid black;
-        background-color: #00BCD4;
-        height: 30px;
-        width: 40px;
-        margin-top: 12vh;
-        border: none;
-    }
-    .rightarrow{
-        border: 1px solid black;
-        background-color: red;
-        height: 30px;
-        width: 40px;
-        margin-top: 12vh;
-    } */
+          .minusbutton {
+              /* border: 1px solid black; */
+              background-color: #DA70D6;
+              /* height: 10px; */
+              width: 40px;
+              border: none;
+              margin-top: 10vh;
+              font-size: smaller;
+              border-radius: 20px;
+              text-align: center;
+              /* padding: 5px; */
+              position: relative;
+              cursor: pointer;
+          }
+      }
