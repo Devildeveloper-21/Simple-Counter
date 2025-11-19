@@ -61,7 +61,7 @@
         }
         
         /* Arrows on side. */
-        /* .leftarrow{
+        .leftarrow{
             border: 1px solid black;
             background-color: #00BCD4;
             height: 30px;
@@ -75,7 +75,7 @@
                 height: 30px;
                 width: 40px;
                 margin-top: 12vh;
-                } */
+                }
                 
                 
                 
