@@ -58,26 +58,7 @@
         
         .minusbutton:hover {
             background-color: #2C003E;
-        }
-        
-        /* Arrows on side. */
-        .leftarrow{
-            border: 1px solid black;
-            background-color: #00BCD4;
-            height: 30px;
-            width: 40px;
-            margin-top: 12vh;
-            border: none;
-            }
-            .rightarrow{
-                border: 1px solid black;
-                background-color: red;
-                height: 30px;
-                width: 40px;
-                margin-top: 12vh;
-                }
-                
-                
+        }                
                 
                 @media (max-width:360px) {
           body {
